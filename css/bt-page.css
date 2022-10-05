@@ -1,0 +1,75 @@
+.help-links .box{
+	height: 125px;
+}
+.help-links .flex-boxes-container .col-1:last-child{
+	border-right: none;
+}
+.choose-options{
+	text-align: center;
+	padding-top: 42px;
+}
+.our-values .box-row .col-2{
+	height: 185px;
+}
+.our-values .flip-board{
+	height: 181px;
+}
+.our-values a.flip-link{
+	margin-top: 15px;
+}
+.front .content-box{
+	text-align: center;
+}
+.back .choose-options{
+	padding-top: 10px;
+}
+@media screen and (min-width: 0px) and (max-width: 767px) {
+	.choose-options{
+		padding-top: 23px;
+	}
+	.our-values .box-row .col-2{
+		height: 245px;
+	}
+	.our-values .content-box{
+		width: 240px;
+	}
+	.help-links .flex-boxes-container .box p{
+		display: inline;
+		padding-left: 0px;
+		vertical-align: top;
+		line-height: 25px;
+	}
+	.help-links .flex-boxes-container .box img.img-icon{
+		vertical-align: top;
+	}
+	.help-links .flex-boxes-container div.box:first-child{
+		border-top: none;
+	}
+	.help-links .flex-boxes-container .box .content-box{
+		padding-left: 10px;
+	}
+	.help-links .flex-boxes-container .box strong{
+		line-height: 25px;
+	}
+	.our-values .flip-board{
+		height: 245px;
+	}
+	.our-values .col-2.flip-this .flip-board .back{
+		height: 241px;
+	}
+	.slick-dots li .dot-button{
+		border-color: #e4e3e3;
+	}
+	.slick-dots li.slick-active .dot-button{
+		background:#e4e3e3 !important;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px)  and (orientation: portrait) {
+	.help-links .box{
+		height: 172px;
+		overflow: visible !important;
+	}
+	.choose-options{
+		padding-top: 16px;
+	}
+}
