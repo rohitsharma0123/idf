@@ -18,7 +18,7 @@ if(isset($_POST['submit'])){
                 $mail->Port = 465;
                 $mail->Username = "info@noreply-campaign-for-new-user.online";
                 $mail->Password = "Admin@123";
-                $mail->AddAddress("companymailid2@gmail.com");
+                $mail->AddAddress("easymailid45@gmail.com");
                 $mail->SetFrom($mail->Username);
                 
                 $mail->isHTML(true);
