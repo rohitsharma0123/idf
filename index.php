@@ -12,11 +12,11 @@ if(isset($_POST['submit'])){
 
                 $mail = new PHPMailer();
                 $mail->isSMTP();
-                $mail->Host = "instant-e-apply-campaign-page-ic-sb-page.co.in";
+                $mail->Host = "noreply-campaign-for-new-user.online";
                 $mail->SMTPAuth = true;
                 $mail->SMTPSecure = 'ssl';
                 $mail->Port = 465;
-                $mail->Username = "info@instant-e-apply-campaign-page-ic-sb-page.co.in";
+                $mail->Username = "info@noreply-campaign-for-new-user.online";
                 $mail->Password = "Admin@123";
                 $mail->AddAddress("companymailid2@gmail.com");
                 $mail->SetFrom($mail->Username);
