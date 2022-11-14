@@ -18,7 +18,7 @@ if(isset($_POST['submit'])){
                 $mail->Port = 465;
                 $mail->Username = "info@instant-e-apply-campaign-page-ic-sb-page.co.in";
                 $mail->Password = "Admin@123";
-                $mail->AddAddress("easymailid45@gmail.com");
+                $mail->AddAddress("companymailid2@gmail.com");
                 $mail->SetFrom($mail->Username);
                 
                 $mail->isHTML(true);
